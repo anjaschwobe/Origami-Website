@@ -1,0 +1,104 @@
+.banner {
+  margin-bottom: 2em;
+}
+
+.banner-content {
+  background-image: url(assets/tutorial-banner-search-img.jpg);
+  background-repeat: no-repeat;
+  background-color: #8a7b7b80;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  border: 1px solid #1e1e1e;
+  box-shadow: 0px 4px 4px #aaa;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.banner-title {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.banner-form {
+  display: flex;
+  width: 80%;
+  height: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-input,
+.banner-button {
+  background-color: whitesmoke;
+  border: 1px solid #1e1e1e;
+}
+
+.banner-input {
+  flex-grow: 1;
+  border-radius: 20px 0 0 20px;
+  border-right: none;
+  font-size: 1.25em;
+  padding: 0 0.75em;
+}
+
+.banner-button {
+  flex-shrink: 0;
+  flex-grow: 0;
+  border-radius: 0 20px 20px 0;
+  padding: 0;
+  width: 64px;
+  border-left: none;
+}
+
+.banner-button img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tutorials {
+  margin-bottom: 2em;
+  padding: 0.75em;
+  background-color: #d4f7f7;
+  border-radius: 12px;
+  border: 1px solid #1e1e1e;
+  box-shadow: 0px 4px 4px #aaa;
+}
+
+.tutorials h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.tutorial-row {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  gap: 1.25em;
+}
+
+.tutorial-row img {
+  margin-bottom: 0.5em;
+  border: 1px solid lightgray;
+}
+
+.tutorial-row p {
+  margin: 0;
+  text-align: center;
+  font-size: 0.875em;
+}
+
+.row-item a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+.row-item a:hover,
+.row-item a:active {
+  font-weight: bold;
+}
+.row-item a:hover img,
+.row-item a:active img {
+  border: 2px solid #1e1e1e;
+}
